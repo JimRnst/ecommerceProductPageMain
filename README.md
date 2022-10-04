@@ -1,5 +1,9 @@
 # Frontend Mentor - E-commerce product page
 
+## _Live Server_
+[Live Server](https://jimrnst.github.io/ecommerceProductPageMain/)
+
+## PREVIEW DESIGN
 ![Design preview for the E-commerce product page coding challenge](./design/desktop-preview.jpg)
 ![Design preview for the E-commerce product page coding challenge](./design/mobile-design.jpg)
 
