@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div id="overflow"></div>
+  <header>
+    <div id="menu">
+      <div id="menu-bar"><img src="images/icon-menu.svg" alt="menu"></div>
+      <div id="menu-close"><img src="images/icon-close.svg" alt="close"></div>
+    </div>
+    <div id="logo"><img src="images/logo.svg" alt="sneaker logo"></div>
+    <nav>
+      <ul id="nav-links">
+        <li class="nav-link">Colections</li>
+        <li class="nav-link">Men</li>
+        <li class="nav-link">Women</li>
+        <li class="nav-link">About</li>
+        <li class="nav-link">Contact</li>
+      </ul>
+    </nav>
+      <div id="nav_aside">
+        <div id="cart">
+          <div id="cart-logo"><img src="images/icon-cart.svg" alt="icon cart"></div>
+          <div id="couter-items">0</div>
+          <div id="card_visibkle">
+            <div id="cart_title">Cart</div>
+            <div id="cart_body">Your cart is empty</div>
+            <div id="cart_items">
+              <div id="cart-contain">
+                <img id="img-for-cart" src="images/image-product-1-thumbnail.jpg" alt="">
+                <div id="text">
+                  <div id="name">Fall Limited Edition Sneakers</div>
+                  <div id="name2">Autum Limited Edition...</div>
+                  <div id="price-cart">$125 x <span id="change">0</span> <span id="total"><b>$0</b></span></div>
+                </div>
+                <img id="delete" src="images/icon-delete.svg" alt="">
+              </div>
+              <button id="checkout">Checkout</button>
+            </div>
+          </div> 
+        </div>
+        <div id="avatar"><img src="images/image-avatar.png" alt="avatar"></div>
+      </div>
+  </header>
+  <div class="line"></div>
+  <main>
+    <div id="container">
+      <div id="photo-carousel">
+        <div id="photo-view"><img src="images/image-product-1.jpg" alt="image product1"></div>
+        <div id="photo-container">
+          <div class="images"><div class="idk" id="product1"></div><img src="images/image-product-1-thumbnail.jpg" alt="product 1" id="op1"></div>
+          <div class="images"><div class="idk" id="product2"></div><img src="images/image-product-2-thumbnail.jpg" alt="product 2" id="op2"></div>
+          <div class="images"><div class="idk" id="product3"></div><img src="images/image-product-3-thumbnail.jpg" alt="product 3" id="op3"></div>
+          <div class="images"><div class="idk" id="product4"></div><img src="images/image-product-4-thumbnail.jpg" alt="product 4" id="op4"></div>
+        </div>
+        <div id="btn-show-products">
+          <div class="btn" id="preview"><img src="images/icon-next.svg" alt=""></div>
+          <div class="btn" id="next"><img src="images/icon-next.svg" alt=""></div>
+        </div>
+      </div>
+      <div id="content">
+        <div id="company-name">Sneaker Company</div>
+        <div id="item-name">Fall Limited Edition Sneakers</div>
+        <div id="item-text">These low-profile sneakers are your perfect casual wear companion.Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer
+        </div>
+        <div id="item-price">
+          <div id="price">
+            <div id="price-ofert">$125.00</div>
+            <div id="ofert">50%</div>
+          </div>
+          <div id="price-original">$250.00</div>
+        </div>
+        <div id="add-cart">
+          <div id="items-number">
+            <div><img src="images/icon-minus.svg" alt="minus" id="minus"></div>
+            <div id="value-item">0</div>
+            <div><img src="images/icon-plus.svg" alt="plus" id="plus"></div>
+          </div>
+          <button><img src="images/icon-cart.svg" alt="icon cart" id="cart_button"> Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div id="photo-carousel-fullscreen">
+    <div id="menu-close-fullscreen"><img src="images/icon-close.svg" alt="close fullscreen" id="close-menu"></div>
+    <div id="photo-view-fullscreen"><img src="images/image-product-1.jpg" alt="image product1"></div>
+    <div id="photo-container-fullscreen">
+      <div class="images-fullscreen"><div class="idk-fullscreen" id="product1-fullscreen"></div><img src="images/image-product-1-thumbnail.jpg" alt="product 1" id="op1"></div>
+      <div class="images-fullscreen"><div class="idk-fullscreen" id="product2-fullscreen"></div><img src="images/image-product-2-thumbnail.jpg" alt="product 2" id="op2"></div>
+      <div class="images-fullscreen"><div class="idk-fullscreen" id="product3-fullscreen"></div><img src="images/image-product-3-thumbnail.jpg" alt="product 3" id="op3"></div>
+      <div class="images-fullscreen"><div class="idk-fullscreen" id="product4-fullscreen"></div><img src="images/image-product-4-thumbnail.jpg" alt="product 4" id="op4"></div>
+    </div>
+    <div id="btn-show-products-fullscreen">
+      <div class="btn" id="preview-fullscreen"><img src="images/icon-next.svg" alt=""></div>
+      <div class="btn" id="next-fullscreen"><img src="images/icon-next.svg" alt=""></div>
+    </div>
+  </div>
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="js/app.js"></script>
+</body>
+</html>
